@@ -1,0 +1,17 @@
+{
+  "name": "compose-sample-3-node-nginx-expess",
+  "version": "1.0.0",
+  "description": "https://github.com/expressjs/express/tree/master/examples",
+  "main": "src/error-pages/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "online": "^0.0.1",
+    "redis": "^4.7.0"
+  }
+}
