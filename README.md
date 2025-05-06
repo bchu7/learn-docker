@@ -190,4 +190,8 @@ docker tag dec34e7a06be 77448855/docker-quickstart:1.0
 docker push 77448855/docker-quickstart
 docker push 77448855/docker-quickstart:1.0
 
+--------------------------------------------------
+- download and run mssql, url: localhost:1433 and login: sa/Root123!
+ docker run --name=mssql -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=Root123!" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2022-latest
+
 -------------------------------------------------
